@@ -5,3 +5,5 @@ vim.keymap.set("i", "jk", "<ESC>")
 vim.keymap.set("n", "Q", ":bd<CR>")
 vim.keymap.set("n", ";", ":") --命令模式
 vim.keymap.set("n", "S", ":w<CR>")
+vim.keymap.set("n", "J", "10j")
+vim.keymap.set("n", "K", "10k")
