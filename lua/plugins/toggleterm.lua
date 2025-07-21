@@ -101,7 +101,7 @@ return {
 				local Terminal = require("toggleterm.terminal").Terminal
 				local terminal = Terminal:new({
 					cmd = cmd,
-					-- dir = file_dir,
+					dir = file_dir,
 					hidden = true,
 					direction = "float",
 				})
