@@ -3,6 +3,7 @@
 -- Add any additional keymaps here
 vim.keymap.set("i", "jk", "<ESC>")
 vim.keymap.set("n", "Q", ":bd<CR>")
+--vim.keymap.set("n", "S", ":w<CR>")
 vim.keymap.set("n", ";", ":") --命令模式
-vim.keymap.set("n", "<C-j>", "10j", { noremap = true })
-vim.keymap.set("n", "<C-k>", "10k", { noremap = true })
+vim.keymap.set("n", "J", "10j") --命令模式
+vim.keymap.set("n", "<C-a>", "ggVG")
